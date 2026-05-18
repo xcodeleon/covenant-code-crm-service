@@ -1,6 +1,5 @@
 # Environment variables
 .env
-!.env
 
 # Logs
 logs/
@@ -31,6 +30,7 @@ build/
 # Application properties
 application-*.yml
 !application.yml
+!application-dev.yml
 !application-prod.yml
 
 .claude/
